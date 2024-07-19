@@ -47,6 +47,44 @@ function Main() {
     <div className='w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gega-grey'></div>
 </div>
          </section>
+          {/* Movies Section */}
+         <section className='py-24 bg-black'>
+          {/* Movies Content */}
+          <div className="container flex space-x-16">
+          {/* Left Content */}
+          <div className='basis-2/3'>
+           {/* titles */}
+           <div className='flex space-x-2 divide-x divide-gega-red divide-opacity-50 mb-8'>
+            <h2 className='text-gega-red'><a href="#">Latest</a></h2>
+            <h2 className='text-gega-grey pl-2 hover:text-gega-red duration-500'><a href="#">Popular</a></h2>
+            <h2 className='text-gega-grey pl-2 hover:text-gega-red duration-500'><a href="#">Best</a></h2>
+           </div>
+            {/* Images Container */}
+            <div className="flex flex-wrap">
+            {/* Image 1*/}
+            <div className="group relative overflow-hidden basis-1/3">
+            <img src="./public/images/mv1.jpg" alt="image1" className='group-hover:scale-110 group-hover:opacity-50 duration-500'/>
+            {/* Image Detail Container*/}
+            <div className='absolute px-6 bottom-8'> 
+            <h3>Oblivion</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, at.</p>
+            {/* Icon Container*/}
+<div>
+  <FaPlay />
+</div>
+            </div>
+
+            </div>
+
+            </div>
+          </div>
+          {/* Right Content */}
+          <div className='basis-1/3 bg-blue-500'>
+          Right Content
+          </div>
+          </div>
+          
+         </section>
 
     </main>
   )
