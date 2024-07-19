@@ -6,7 +6,7 @@ function Main() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="h-64 md:h-96 lg:h-128 group relative">
+      <section className="h-96 lg:h-128 group relative">
         {/* Hero Image */}
 
         <img
@@ -280,9 +280,9 @@ function Main() {
            {/* titles */}
            <h2 className="text-gega-grey mb-8">Hot News</h2>
             {/* News Container */}
-            <div className="flex flex-col h-full pb-16 justify-between">
+            <div className="flex flex-row lg:flex-col lg:h-full lg:pb-16 justify-start lg:justify-between flex-wrap lg:flex-nowrap space-y-4">
                {/* Item */}
-               <div className="flex items-center group">
+               <div className="flex items-center group basis-3/4 md:basis-1/2">
                  {/* New Image Container */}
                  <div className="basis-1/3 h-full">
                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
@@ -294,7 +294,7 @@ function Main() {
 </div>
                </div>
                {/* Item */}
-               <div className="flex items-center group">
+               <div className="flex items-center group basis-3/4 md:basis-1/2">
                  {/* New Image Container */}
                  <div className="basis-1/3 h-full">
                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
@@ -306,7 +306,7 @@ function Main() {
 </div>
                </div>
                {/* Item */}
-               <div className="flex items-center group">
+               <div className="flex items-center group basis-3/4 md:basis-1/2">
                  {/* New Image Container */}
                  <div className="basis-1/3 h-full">
                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
@@ -318,7 +318,7 @@ function Main() {
 </div>
                </div>
                {/* Item */}
-               <div className="flex items-center group">
+               <div className="flex items-center group basis-3/4 md:basis-1/2">
                  {/* New Image Container */}
                  <div className="basis-1/3 h-full">
                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
@@ -330,7 +330,7 @@ function Main() {
 </div>
                </div>
                {/* Item */}
-               <div className="flex items-center group">
+               <div className="flex items-center group basis-3/4 md:basis-1/2 md:hidden lg:flex">
                  {/* New Image Container */}
                  <div className="basis-1/3 h-full">
                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
@@ -341,11 +341,43 @@ function Main() {
 <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
 </div>
                </div>
+          
             </div>
 
           </div>
         </div>
       </section>
+       {/* Matrix Section */}
+       <section className="bg-gega-white mb-24 ">
+{/* Matrix Container */}
+<div className="container flex items-center justify-center relative pl-10 lg:pl-0  ">
+  {/* Left Content */}
+  <div className="hidden md:block md:basis-1/3 lg:basis-1/2">
+<img src="./public/images/matrix.png" alt="matrix image" className="lg:absolute lg:bottom-0" />
+
+  </div>
+  {/* Right Content */}
+  <div className="md:basis-2/3 lg:basis-1/2">
+  <div className="flex flex-col justify-center py-10 w-3/4 md:w-full">
+<h3 className="tracking-wider text-gega-melon">ACTION, DRAMA, THRILLER</h3>
+<h2 className="mb-2">Matrix Reloaded</h2>
+<p className="text-sm mb-2" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis soluta eius odio voluptatibus iusto quisquam aliquam cum labore quo?</p>
+<h3 className="tracking-wider text-gega-red">8 wins 34 nominations</h3>
+  </div>
+
+
+  </div>
+
+
+ {/* Oldie*/}
+ <div className="left-10 absolute -top-12 lg:left-0 w-24 h-24 bg-gega-melon rounded-full text-center flex items-center" >
+  <p className="font-gemunu uppercase font-bold text-xl text-gega-red -rotate-45">Oldie & Goldie</p>
+ </div>
+</div>
+
+
+
+       </section>
     </main>
   );
 }
