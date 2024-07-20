@@ -1,6 +1,8 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
+import { FaRegComments } from "react-icons/fa";
+import { CiHeart } from "react-icons/ci";
 
 function Main() {
   return (
@@ -112,8 +114,8 @@ function Main() {
                   </div>
                 </div>
               </div>
-                   {/* Image 2*/}
-                   <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
+              {/* Image 2*/}
+              <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
                   src="./public/images/mv6.jpg"
                   alt="image1"
@@ -135,8 +137,8 @@ function Main() {
                   </div>
                 </div>
               </div>
-                   {/* Image 3*/}
-                   <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
+              {/* Image 3*/}
+              <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
                   src="./public/images/mv2.jpg"
                   alt="image1"
@@ -158,8 +160,8 @@ function Main() {
                   </div>
                 </div>
               </div>
-                   {/* Image 4*/}
-                   <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
+              {/* Image 4*/}
+              <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
                   src="./public/images/mv3.jpg"
                   alt="image1"
@@ -181,8 +183,8 @@ function Main() {
                   </div>
                 </div>
               </div>
-                   {/* Image 5*/}
-                   <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
+              {/* Image 5*/}
+              <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
                   src="./public/images/mv4.jpg"
                   alt="image1"
@@ -204,8 +206,8 @@ function Main() {
                   </div>
                 </div>
               </div>
-                   {/* Image 6*/}
-                   <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
+              {/* Image 6*/}
+              <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
                   src="./public/images/mv5.jpg"
                   alt="image1"
@@ -227,8 +229,8 @@ function Main() {
                   </div>
                 </div>
               </div>
-                 {/* Image 7*/}
-                 <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
+              {/* Image 7*/}
+              <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
                 <img
                   src="./public/images/mv4.jpg"
                   alt="image1"
@@ -250,8 +252,8 @@ function Main() {
                   </div>
                 </div>
               </div>
-                 {/* Image 8*/}
-                 <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
+              {/* Image 8*/}
+              <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
                 <img
                   src="./public/images/mv4.jpg"
                   alt="image1"
@@ -277,107 +279,221 @@ function Main() {
           </div>
           {/* Right Content */}
           <div className="basis-1/3 pl-10 lg:pl-0">
-           {/* titles */}
-           <h2 className="text-gega-grey mb-8">Hot News</h2>
+            {/* titles */}
+            <h2 className="text-gega-grey mb-8">Hot News</h2>
             {/* News Container */}
             <div className="flex flex-row lg:flex-col lg:h-full lg:pb-16 justify-start lg:justify-between flex-wrap lg:flex-nowrap space-y-4">
-               {/* Item */}
-               <div className="flex items-center group basis-3/4 md:basis-1/2">
-                 {/* New Image Container */}
-                 <div className="basis-1/3 h-full">
-                 <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
-                 </div>
-{/* Item Deatils */}
-<div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-<p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
-<p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
-</div>
-               </div>
-               {/* Item */}
-               <div className="flex items-center group basis-3/4 md:basis-1/2">
-                 {/* New Image Container */}
-                 <div className="basis-1/3 h-full">
-                 <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
-                 </div>
-{/* Item Deatils */}
-<div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-<p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
-<p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
-</div>
-               </div>
-               {/* Item */}
-               <div className="flex items-center group basis-3/4 md:basis-1/2">
-                 {/* New Image Container */}
-                 <div className="basis-1/3 h-full">
-                 <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
-                 </div>
-{/* Item Deatils */}
-<div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-<p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
-<p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
-</div>
-               </div>
-               {/* Item */}
-               <div className="flex items-center group basis-3/4 md:basis-1/2">
-                 {/* New Image Container */}
-                 <div className="basis-1/3 h-full">
-                 <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
-                 </div>
-{/* Item Deatils */}
-<div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-<p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
-<p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
-</div>
-               </div>
-               {/* Item */}
-               <div className="flex items-center group basis-3/4 md:basis-1/2 md:hidden lg:flex">
-                 {/* New Image Container */}
-                 <div className="basis-1/3 h-full">
-                 <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
-                 </div>
-{/* Item Deatils */}
-<div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-<p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
-<p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
-</div>
-               </div>
-          
+              {/* Item */}
+              <div className="flex items-center group basis-3/4 md:basis-1/2">
+                {/* New Image Container */}
+                <div className="basis-1/3 h-full">
+                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
+                </div>
+                {/* Item Deatils */}
+                <div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
+                  <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
+                  <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
+                </div>
+              </div>
+              {/* Item */}
+              <div className="flex items-center group basis-3/4 md:basis-1/2">
+                {/* New Image Container */}
+                <div className="basis-1/3 h-full">
+                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
+                </div>
+                {/* Item Deatils */}
+                <div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
+                  <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
+                  <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
+                </div>
+              </div>
+              {/* Item */}
+              <div className="flex items-center group basis-3/4 md:basis-1/2">
+                {/* New Image Container */}
+                <div className="basis-1/3 h-full">
+                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
+                </div>
+                {/* Item Deatils */}
+                <div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
+                  <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
+                  <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
+                </div>
+              </div>
+              {/* Item */}
+              <div className="flex items-center group basis-3/4 md:basis-1/2">
+                {/* New Image Container */}
+                <div className="basis-1/3 h-full">
+                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
+                </div>
+                {/* Item Deatils */}
+                <div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
+                  <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
+                  <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
+                </div>
+              </div>
+              {/* Item */}
+              <div className="flex items-center group basis-3/4 md:basis-1/2 md:hidden lg:flex">
+                {/* New Image Container */}
+                <div className="basis-1/3 h-full">
+                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
+                </div>
+                {/* Item Deatils */}
+                <div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
+                  <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
+                  <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
+                </div>
+              </div>
+
             </div>
 
           </div>
         </div>
       </section>
-       {/* Matrix Section */}
-       <section className="bg-gega-white mb-24 ">
-{/* Matrix Container */}
-<div className="container flex items-center justify-center relative pl-10 lg:pl-0  ">
-  {/* Left Content */}
-  <div className="hidden md:block md:basis-1/3 lg:basis-1/2">
-<img src="./public/images/matrix.png" alt="matrix image" className="lg:absolute lg:bottom-0" />
+      {/* Matrix Section */}
+      <section className="bg-gega-white ">
+        {/* Matrix Container */}
+        <div className="container flex items-center justify-center relative pl-10 lg:pl-0  ">
+          {/* Left Content */}
+          <div className="hidden md:block md:basis-1/3 lg:basis-1/2">
+            <img src="./public/images/matrix.png" alt="matrix image" className="lg:absolute lg:bottom-0" />
 
-  </div>
-  {/* Right Content */}
-  <div className="md:basis-2/3 lg:basis-1/2">
-  <div className="flex flex-col justify-center py-10 w-3/4 md:w-full">
-<h3 className="tracking-wider text-gega-melon">ACTION, DRAMA, THRILLER</h3>
-<h2 className="mb-2">Matrix Reloaded</h2>
-<p className="text-sm mb-2" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis soluta eius odio voluptatibus iusto quisquam aliquam cum labore quo?</p>
-<h3 className="tracking-wider text-gega-red">8 wins 34 nominations</h3>
-  </div>
-
-
-  </div>
+          </div>
+          {/* Right Content */}
+          <div className="md:basis-2/3 lg:basis-1/2">
+            <div className="flex flex-col justify-center py-10 w-3/4 md:w-full">
+              <h3 className="tracking-wider text-gega-melon">ACTION, DRAMA, THRILLER</h3>
+              <h2 className="mb-2">Matrix Reloaded</h2>
+              <p className="text-sm mb-2" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid perferendis soluta eius odio voluptatibus iusto quisquam aliquam cum labore quo?</p>
+              <h3 className="tracking-wider text-gega-red">8 wins 34 nominations</h3>
+            </div>
 
 
- {/* Oldie*/}
- <div className="left-10 absolute -top-12 lg:left-0 w-24 h-24 bg-gega-melon rounded-full text-center flex items-center" >
-  <p className="font-gemunu uppercase font-bold text-xl text-gega-red -rotate-45">Oldie & Goldie</p>
- </div>
+          </div>
+
+
+          {/* Oldie*/}
+          <div className="left-10 absolute -top-12 lg:left-0 w-24 h-24 bg-gega-melon rounded-full text-center flex items-center" >
+            <p className="font-gemunu uppercase font-bold text-xl text-gega-red -rotate-45">Oldie & Goldie</p>
+          </div>
+        </div>
+
+      </section>
+      {/* Post Section */}
+      <section className="py-24 bg-black text-gega-grey">
+{/* Post Container */}
+<div className="container px-10 lg:px-0  ">
+
+  {/* Post Title */}
+  <h2 className="text-gega-red"><a href="#">Popular Posts</a></h2>
+  {/* Grid Area */}
+<div className="grid grid-cols-6 gap-10  w-3/4 md:w-full">
+   {/*Item 1 */}
+   <div className="col-span-6 md:col-span-3 border border-gega-red ">
+    {/*Item 1 Header*/}
+    <div className="border-b border-gega-red p-4 flex items-center justify-between">
+      <h3>accusantium doloremque laudant...</h3>
+      <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full"/>
+    </div>
+    {/*Item 1 Para*/}
+    <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
+   {/*Item 1 Footer */}
+   <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+      <p className="uppercase">on dec 17, 2022</p>
+      <div className="flex items-center justify-center space-x-1">
+      <FaRegComments />
+      <p>12</p>
+      <CiHeart />
+      <p>09</p>
+      </div>
+    </div>
+   </div>
+
+     {/*Item 2 */}
+     <div className="col-span-6 md:col-span-3 border border-gega-red ">
+    {/*Item 2 Header*/}
+    <div className="border-b border-gega-red p-4 flex items-center justify-between">
+      <h3>accusantium doloremque laudant...</h3>
+      <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full"/>
+    </div>
+    {/*Item 2 Para*/}
+    <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
+   {/*Item 2 Footer */}
+   <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+      <p className="uppercase">on dec 17, 2022</p>
+      <div className="flex items-center justify-center space-x-1">
+      <FaRegComments />
+      <p>12</p>
+      <CiHeart />
+      <p>09</p>
+      </div>
+    </div>
+   </div>
+      {/*Item 3 */}
+      <div className="col-span-6 md:col-span-3 lg:col-span-2 border border-gega-red ">
+    {/*Item 3 Header*/}
+    <div className="border-b border-gega-red p-4 flex items-center justify-between">
+      <h3>accusantium doloremque laudant...</h3>
+      <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full"/>
+    </div>
+    {/*Item 3 Para*/}
+    <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
+   {/*Item 3 Footer */}
+   <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+      <p className="uppercase">on dec 17, 2022</p>
+      <div className="flex items-center justify-center space-x-1">
+      <FaRegComments />
+      <p>12</p>
+      <CiHeart />
+      <p>09</p>
+      </div>
+    </div>
+   </div>
+    {/*Item 4 */}
+    <div className="col-span-6 md:col-span-3 lg:col-span-2 border border-gega-red ">
+    {/*Item 4 Header*/}
+    <div className="border-b border-gega-red p-4 flex items-center justify-between">
+      <h3>accusantium doloremque laudant...</h3>
+      <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full"/>
+    </div>
+    {/*Item 4 Para*/}
+    <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
+   {/*Item 4 Footer */}
+   <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+      <p className="uppercase">on dec 17, 2022</p>
+      <div className="flex items-center justify-center space-x-1">
+      <FaRegComments />
+      <p>12</p>
+      <CiHeart />
+      <p>09</p>
+      </div>
+    </div>
+   </div>
+    {/*Item 5 */}
+    <div className="hidden lg:block lg:col-span-2 border border-gega-red ">
+    {/*Item 5 Header*/}
+    <div className="border-b border-gega-red p-4 flex items-center justify-between">
+      <h3>accusantium doloremque laudant...</h3>
+      <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full"/>
+    </div>
+    {/*Item 5 Para*/}
+    <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
+   {/*Item 5 Footer */}
+   <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+      <p className="uppercase">on dec 17, 2022</p>
+      <div className="flex items-center justify-center space-x-1">
+      <FaRegComments />
+      <p>12</p>
+      <CiHeart />
+      <p>09</p>
+      </div>
+    </div>
+   </div>
+    
+</div>
 </div>
 
-
-
-       </section>
+      </section>
+      
     </main>
   );
 }

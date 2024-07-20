@@ -1,9 +1,37 @@
 import { IoIosSearch } from "react-icons/io";
+import { FaRegSun } from "react-icons/fa";
+import { IoMdMoon } from "react-icons/io";
+import React, { useState, useEffect } from "react";
 
 
 function Header() {
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  // Effekt, um Klasse auf body zu setzen oder zu entfernen
+  useEffect(() => {
+    if (isDarkMode) {
+      document.body.classList.add('dark');
+    } else {
+      document.body.classList.remove('dark');
+    }
+  }, [isDarkMode]); // Abhängigkeit von isDarkMode
+
+  // Funktion zum Umschalten des Dunkelmodus
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+  };
+ 
   return (
-    <header className="bg-black py-6 lg:py-12 text-gega-grey uppercase">
+
+
+    <header className="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase ">
+      <div className="absolute top-1 right-5  cursor-pointer text-lg">
+
+        {isDarkMode ? (<IoMdMoon onClick={toggleDarkMode} className="text-white" id="moon" />):(<FaRegSun onClick={toggleDarkMode} className="text-black" id="sun" />)}
+      
+      
+
+      </div>
       {/* Header Container */}
       <div className="container flex items-center justify-between space-x-8 lg:space-x-16">
         {/* Logo */}
@@ -14,9 +42,9 @@ function Header() {
         {/* Mobile Menu*/}
         <div className="block md:hidden pr-4 ">
           <div className="space-y-1 cursor-pointer">
-            <div className="bg-gega-grey w-8 h-1 rounded-full"></div>
-            <div className="bg-gega-grey w-8 h-1 rounded-full"></div>
-            <div className="bg-gega-grey w-8 h-1 rounded-full"></div>
+            <div className="dark:bg-gega-grey bg-black w-8 h-1 rounded-full"></div>
+            <div className="dark:bg-gega-grey bg-black w-8 h-1 rounded-full"></div>
+            <div className="dark:bg-gega-grey bg-black w-8 h-1 rounded-full"></div>
 
 
           </div>
