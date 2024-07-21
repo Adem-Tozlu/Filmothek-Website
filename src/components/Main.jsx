@@ -3,10 +3,14 @@ import { FaPlay } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { FaRegComments } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
+import { useState } from "react";
+
 
 function Main() {
+  
+
   return (
-    <main>
+    <main >
       {/* Hero Section */}
       <section className="h-96 lg:h-128 group relative">
         {/* Hero Image */}
@@ -72,7 +76,7 @@ function Main() {
         </div>
       </section>
       {/* Movies Section */}
-      <section className="py-24 bg-black">
+      <section className="py-24 dark:bg-black bg-white">
         {/* Movies Content */}
         <div className="container flex flex-col lg:flex-row lg:space-x-16 space-y-8 lg:space-y-0">
           {/* Left Content */}
@@ -82,25 +86,25 @@ function Main() {
               <h2 className="text-gega-red">
                 <a href="#">Latest</a>
               </h2>
-              <h2 className="text-gega-grey pl-2 hover:text-gega-red duration-500">
+              <h2 className="dark:text-gega-grey text-black pl-2 hover:text-gega-red duration-500">
                 <a href="#">Popular</a>
               </h2>
-              <h2 className="text-gega-grey pl-2 hover:text-gega-red duration-500">
+              <h2 className="dark:text-gega-grey text-black pl-2 hover:text-gega-red duration-500">
                 <a href="#">Best</a>
               </h2>
             </div>
             {/* Images Container */}
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap bg-black">
               {/* Image 1*/}
               <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
                   src="./public/images/mv1.jpg"
                   alt="image1"
-                  className="group-hover:scale-110 group-hover:opacity-50 duration-500"
+                  className="group-hover:scale-110 group-hover:opacity-50 duration-500 "
                 />
                 {/* Image Detail Container*/}
-                <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500">
+                <div className=" absolute  px-6 bottom-8">
+                  <h3 className="text-gega-grey   group-hover:text-gega-melon group-hover:mb-2 duration-500">
                     Oblivion
                   </h3>
                   <p className="text xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
@@ -280,7 +284,7 @@ function Main() {
           {/* Right Content */}
           <div className="basis-1/3 pl-10 lg:pl-0">
             {/* titles */}
-            <h2 className="text-gega-grey mb-8">Hot News</h2>
+            <h2 className="dark:text-gega-grey text-black mb-8">Hot News</h2>
             {/* News Container */}
             <div className="flex flex-row lg:flex-col lg:h-full lg:pb-16 justify-start lg:justify-between flex-wrap lg:flex-nowrap space-y-4">
               {/* Item */}
@@ -290,7 +294,7 @@ function Main() {
                   <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
                 </div>
                 {/* Item Deatils */}
-                <div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
+                <div className="pl-8 basis-2/3 dark:text-gega-grey text-black group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
                   <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
                   <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                 </div>
@@ -302,7 +306,7 @@ function Main() {
                   <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
                 </div>
                 {/* Item Deatils */}
-                <div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
+                <div className="pl-8 basis-2/3 dark:text-gega-grey text-black group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
                   <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
                   <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                 </div>
@@ -314,7 +318,7 @@ function Main() {
                   <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
                 </div>
                 {/* Item Deatils */}
-                <div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
+                <div className="pl-8 basis-2/3 dark:text-gega-grey text-black group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
                   <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
                   <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                 </div>
@@ -326,7 +330,7 @@ function Main() {
                   <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
                 </div>
                 {/* Item Deatils */}
-                <div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
+                <div className="pl-8 basis-2/3 dark:text-gega-grey text-black group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
                   <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
                   <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                 </div>
@@ -338,7 +342,7 @@ function Main() {
                   <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
                 </div>
                 {/* Item Deatils */}
-                <div className="pl-8 basis-2/3 text-gega-grey group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
+                <div className="pl-8 basis-2/3 dark:text-gega-grey text-black group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
                   <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
                   <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                 </div>
@@ -379,7 +383,7 @@ function Main() {
 
       </section>
       {/* Post Section */}
-      <section className="py-24 bg-black text-gega-grey">
+      <section className="py-24 dark:bg-black bg-white  dark:text-gega-grey text-black">
 {/* Post Container */}
 <div className="container px-10 lg:px-0  ">
 

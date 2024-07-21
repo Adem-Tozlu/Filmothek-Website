@@ -1,8 +1,10 @@
 import React from 'react'
 
+
 function Footer() {
+ 
     return (
-        <footer className='bg-black text-gega-grey'>
+        <footer className='dark:bg-black bg-white dark:text-gega-grey'>
             {/* Footer Container */}
             <div className="container flex flex-col md:flex-row px-10 lg:px0 pb-8">
                 {/* Left */}
