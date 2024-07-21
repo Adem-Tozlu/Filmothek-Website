@@ -4,7 +4,7 @@ import { NavContext } from "../context/NavMenu";
 function Footer() {
     const { setMenu } = useContext(NavContext);
     return (
-        <footer className='dark:bg-black bg-white dark:text-gega-grey' onClick={()=>setMenu(false)}>
+        <footer className=' dark:bg-black bg-white dark:text-gega-grey' onClick={()=>setMenu(false)}>
             {/* Footer Container */}
             <div className="container flex flex-col md:flex-row px-10 lg:px0 pb-8">
                 {/* Left */}
@@ -28,10 +28,10 @@ function Footer() {
                 {/* Right */}
                 <div className="basis-1/3">
                     <h2 className='mb-2 text-gega-red uppercase'>Follow us</h2>
-                    <form action="" className='flex '>
+                    <form action="" className='flex'>
 
-                        <input type="email" placeholder='TYPE YOUR EMAIL' className='placeholder:text-xs outline-none py-1 px-2 bg-transparent border border-gega-red' />
-                        <button className='py-1 px-2 border border-gega-red bg-gega-red font-gemunu uppercase'>Subscribe</button>
+                        <input type="email" placeholder='TYPE YOUR EMAIL' className=' placeholder:text-xs outline-none py-0 sm:py-1 px-0 sm:px-2 bg-transparent border border-gega-red' />
+                        <button className='py-0 sm:py-1 px-0 sm:px-2 border border-gega-red bg-gega-red font-gemunu uppercase'>Subscribe</button>
                     </form>
                 </div>
 

@@ -1,4 +1,4 @@
-import React,{useContext} from "react";
+import React, { useContext } from "react";
 import { FaPlay } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { FaRegComments } from "react-icons/fa";
@@ -7,9 +7,9 @@ import { NavContext } from "../context/NavMenu";
 
 function Main() {
   const { setMenu } = useContext(NavContext);
- 
+
   return (
-    <main onClick={()=>{setMenu(false)}} >
+    <main onClick={() => { setMenu(false) }} >
       {/* Hero Section */}
       <section className="h-96 lg:h-128 group relative">
         {/* Hero Image */}
@@ -102,16 +102,16 @@ function Main() {
                   className="group-hover:scale-110 group-hover:opacity-50 duration-500 "
                 />
                 {/* Image Detail Container*/}
-                <div className=" absolute  px-6 bottom-8">
-                  <h3 className="text-gega-grey   group-hover:text-gega-melon group-hover:mb-2 duration-500">
+                <div className=" absolute  px-6 bottom-8 ">
+                  <h3 className="text-gega-grey   group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Oblivion
                   </h3>
-                  <p className="text xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
+                  <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, at.
                   </p>
                   {/* Icon Container*/}
-                  <div className="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
+                  <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
                     <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
                     <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
                   </div>
@@ -126,15 +126,15 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Oblivion
                   </h3>
-                  <p className="text xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
+                  <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, at.
                   </p>
                   {/* Icon Container*/}
-                  <div className="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
+                  <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
                     <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
                     <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
                   </div>
@@ -149,15 +149,15 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Oblivion
                   </h3>
-                  <p className="text xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
+                  <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, at.
                   </p>
                   {/* Icon Container*/}
-                  <div className="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
+                  <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
                     <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
                     <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
                   </div>
@@ -172,15 +172,15 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Oblivion
                   </h3>
-                  <p className="text xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
+                  <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, at.
                   </p>
                   {/* Icon Container*/}
-                  <div className="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
+                  <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
                     <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
                     <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
                   </div>
@@ -195,15 +195,15 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Oblivion
                   </h3>
-                  <p className="text xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
+                  <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, at.
                   </p>
                   {/* Icon Container*/}
-                  <div className="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
+                  <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
                     <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
                     <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
                   </div>
@@ -218,15 +218,15 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Oblivion
                   </h3>
-                  <p className="text xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
+                  <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, at.
                   </p>
                   {/* Icon Container*/}
-                  <div className="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
+                  <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
                     <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
                     <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
                   </div>
@@ -241,15 +241,15 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Oblivion
                   </h3>
-                  <p className="text xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
+                  <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, at.
                   </p>
                   {/* Icon Container*/}
-                  <div className="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
+                  <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
                     <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
                     <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
                   </div>
@@ -264,15 +264,15 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Oblivion
                   </h3>
-                  <p className="text xs opacity-0 group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
+                  <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Nesciunt, at.
                   </p>
                   {/* Icon Container*/}
-                  <div className="absolute flex space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
+                  <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
                     <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
                     <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
                   </div>
@@ -294,7 +294,7 @@ function Main() {
                 </div>
                 {/* Item Deatils */}
                 <div className="pl-8 basis-2/3 dark:text-gega-grey text-black group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-                  <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
+                  <p className=" text-xs sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
                   <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                 </div>
               </div>
@@ -302,11 +302,11 @@ function Main() {
               <div className="flex items-center group basis-3/4 md:basis-1/2">
                 {/* New Image Container */}
                 <div className="basis-1/3 h-full">
-                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
+                  <img src="./public/images/new2.jpg" alt="image" className="h-full w-full object-cover" />
                 </div>
                 {/* Item Deatils */}
                 <div className="pl-8 basis-2/3 dark:text-gega-grey text-black group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-                  <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
+                  <p className=" text-xs sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
                   <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                 </div>
               </div>
@@ -314,11 +314,11 @@ function Main() {
               <div className="flex items-center group basis-3/4 md:basis-1/2">
                 {/* New Image Container */}
                 <div className="basis-1/3 h-full">
-                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
+                  <img src="./public/images/new3.jpg" alt="image" className="h-full w-full object-cover" />
                 </div>
                 {/* Item Deatils */}
                 <div className="pl-8 basis-2/3 dark:text-gega-grey text-black group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-                  <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
+                  <p className=" text-xs sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
                   <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                 </div>
               </div>
@@ -326,11 +326,11 @@ function Main() {
               <div className="flex items-center group basis-3/4 md:basis-1/2">
                 {/* New Image Container */}
                 <div className="basis-1/3 h-full">
-                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
+                  <img src="./public/images/new4.jpg" alt="image" className="h-full w-full object-cover" />
                 </div>
                 {/* Item Deatils */}
                 <div className="pl-8 basis-2/3 dark:text-gega-grey text-black group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-                  <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
+                  <p className=" text-xs sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
                   <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                 </div>
               </div>
@@ -338,11 +338,11 @@ function Main() {
               <div className="flex items-center group basis-3/4 md:basis-1/2 md:hidden lg:flex">
                 {/* New Image Container */}
                 <div className="basis-1/3 h-full">
-                  <img src="./public/images/new1.jpg" alt="image" className="h-full w-full object-cover" />
+                  <img src="./public/images/new5.jpg" alt="image" className="h-full w-full object-cover" />
                 </div>
                 {/* Item Deatils */}
                 <div className="pl-8 basis-2/3 dark:text-gega-grey text-black group-hover:text-gega-melon group-hover:cursor-pointer duration-500">
-                  <p className=" text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
+                  <p className=" text-xs sm:text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, suscipit.</p>
                   <p className="text-xs tracking-tighter mt-2 font-bold font-gemunu">ON NOW 01 2022</p>
                 </div>
               </div>
@@ -375,7 +375,7 @@ function Main() {
 
 
           {/* Oldie*/}
-          <div className="left-10 absolute -top-12 lg:left-0 w-24 h-24 bg-gega-melon rounded-full text-center flex items-center" >
+          <div className="left-10 absolute -top-14 lg:-top-12 lg:left-0 w-24 h-24 bg-gega-melon rounded-full text-center flex items-center" >
             <p className="font-gemunu uppercase font-bold text-xl text-gega-red -rotate-45">Oldie & Goldie</p>
           </div>
         </div>
@@ -383,120 +383,120 @@ function Main() {
       </section>
       {/* Post Section */}
       <section className="py-24 dark:bg-black bg-white  dark:text-gega-grey text-black">
-{/* Post Container */}
-<div className="container px-10 lg:px-0  ">
+        {/* Post Container */}
+        <div className="container px-10 lg:px-0  ">
 
-  {/* Post Title */}
-  <h2 className="text-gega-red"><a href="#">Popular Posts</a></h2>
-  {/* Grid Area */}
-<div className="grid grid-cols-6 gap-10  w-3/4 md:w-full">
-   {/*Item 1 */}
-   <div className="col-span-6 md:col-span-3 border border-gega-red ">
-    {/*Item 1 Header*/}
-    <div className="border-b border-gega-red p-4 flex items-center justify-between">
-      <h3>accusantium doloremque laudant...</h3>
-      <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full"/>
-    </div>
-    {/*Item 1 Para*/}
-    <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
-   {/*Item 1 Footer */}
-   <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
-      <p className="uppercase">on dec 17, 2022</p>
-      <div className="flex items-center justify-center space-x-1">
-      <FaRegComments />
-      <p>12</p>
-      <CiHeart />
-      <p>09</p>
-      </div>
-    </div>
-   </div>
+          {/* Post Title */}
+          <h2 className="text-gega-red"><a href="#">Popular Posts</a></h2>
+          {/* Grid Area */}
+          <div className="grid grid-cols-6 gap-10  w-3/4 md:w-full">
+            {/*Item 1 */}
+            <div className="col-span-6 md:col-span-3 border border-gega-red ">
+              {/*Item 1 Header*/}
+              <div className="border-b border-gega-red p-4 flex items-center justify-between">
+                <h3 className="text-xs sm:text-sm">accusantium doloremque laudant...</h3>
+                <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full" />
+              </div>
+              {/*Item 1 Para*/}
+              <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
+              {/*Item 1 Footer */}
+              <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+                <p className="uppercase">on dec 17, 2022</p>
+                <div className="flex items-center justify-center space-x-1">
+                  <FaRegComments />
+                  <p>12</p>
+                  <CiHeart />
+                  <p>09</p>
+                </div>
+              </div>
+            </div>
 
-     {/*Item 2 */}
-     <div className="col-span-6 md:col-span-3 border border-gega-red ">
-    {/*Item 2 Header*/}
-    <div className="border-b border-gega-red p-4 flex items-center justify-between">
-      <h3>accusantium doloremque laudant...</h3>
-      <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full"/>
-    </div>
-    {/*Item 2 Para*/}
-    <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
-   {/*Item 2 Footer */}
-   <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
-      <p className="uppercase">on dec 17, 2022</p>
-      <div className="flex items-center justify-center space-x-1">
-      <FaRegComments />
-      <p>12</p>
-      <CiHeart />
-      <p>09</p>
-      </div>
-    </div>
-   </div>
-      {/*Item 3 */}
-      <div className="col-span-6 md:col-span-3 lg:col-span-2 border border-gega-red ">
-    {/*Item 3 Header*/}
-    <div className="border-b border-gega-red p-4 flex items-center justify-between">
-      <h3>accusantium doloremque laudant...</h3>
-      <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full"/>
-    </div>
-    {/*Item 3 Para*/}
-    <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
-   {/*Item 3 Footer */}
-   <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
-      <p className="uppercase">on dec 17, 2022</p>
-      <div className="flex items-center justify-center space-x-1">
-      <FaRegComments />
-      <p>12</p>
-      <CiHeart />
-      <p>09</p>
-      </div>
-    </div>
-   </div>
-    {/*Item 4 */}
-    <div className="col-span-6 md:col-span-3 lg:col-span-2 border border-gega-red ">
-    {/*Item 4 Header*/}
-    <div className="border-b border-gega-red p-4 flex items-center justify-between">
-      <h3>accusantium doloremque laudant...</h3>
-      <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full"/>
-    </div>
-    {/*Item 4 Para*/}
-    <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
-   {/*Item 4 Footer */}
-   <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
-      <p className="uppercase">on dec 17, 2022</p>
-      <div className="flex items-center justify-center space-x-1">
-      <FaRegComments />
-      <p>12</p>
-      <CiHeart />
-      <p>09</p>
-      </div>
-    </div>
-   </div>
-    {/*Item 5 */}
-    <div className="hidden lg:block lg:col-span-2 border border-gega-red ">
-    {/*Item 5 Header*/}
-    <div className="border-b border-gega-red p-4 flex items-center justify-between">
-      <h3>accusantium doloremque laudant...</h3>
-      <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full"/>
-    </div>
-    {/*Item 5 Para*/}
-    <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
-   {/*Item 5 Footer */}
-   <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
-      <p className="uppercase">on dec 17, 2022</p>
-      <div className="flex items-center justify-center space-x-1">
-      <FaRegComments />
-      <p>12</p>
-      <CiHeart />
-      <p>09</p>
-      </div>
-    </div>
-   </div>
-    
-</div>
-</div>
+            {/*Item 2 */}
+            <div className="col-span-6 md:col-span-3 border border-gega-red ">
+              {/*Item 2 Header*/}
+              <div className="border-b border-gega-red p-4 flex items-center justify-between">
+                <h3>accusantium doloremque laudant...</h3>
+                <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full" />
+              </div>
+              {/*Item 2 Para*/}
+              <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
+              {/*Item 2 Footer */}
+              <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+                <p className="uppercase">on dec 17, 2022</p>
+                <div className="flex items-center justify-center space-x-1">
+                  <FaRegComments />
+                  <p>12</p>
+                  <CiHeart />
+                  <p>09</p>
+                </div>
+              </div>
+            </div>
+            {/*Item 3 */}
+            <div className="col-span-6 md:col-span-3 lg:col-span-2 border border-gega-red ">
+              {/*Item 3 Header*/}
+              <div className="border-b border-gega-red p-4 flex items-center justify-between">
+                <h3>accusantium doloremque laudant...</h3>
+                <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full" />
+              </div>
+              {/*Item 3 Para*/}
+              <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
+              {/*Item 3 Footer */}
+              <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+                <p className="uppercase">on dec 17, 2022</p>
+                <div className="flex items-center justify-center space-x-1">
+                  <FaRegComments />
+                  <p>12</p>
+                  <CiHeart />
+                  <p>09</p>
+                </div>
+              </div>
+            </div>
+            {/*Item 4 */}
+            <div className="col-span-6 md:col-span-3 lg:col-span-2 border border-gega-red ">
+              {/*Item 4 Header*/}
+              <div className="border-b border-gega-red p-4 flex items-center justify-between">
+                <h3>accusantium doloremque laudant...</h3>
+                <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full" />
+              </div>
+              {/*Item 4 Para*/}
+              <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
+              {/*Item 4 Footer */}
+              <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+                <p className="uppercase">on dec 17, 2022</p>
+                <div className="flex items-center justify-center space-x-1">
+                  <FaRegComments />
+                  <p>12</p>
+                  <CiHeart />
+                  <p>09</p>
+                </div>
+              </div>
+            </div>
+            {/*Item 5 */}
+            <div className="hidden lg:block lg:col-span-2 border border-gega-red ">
+              {/*Item 5 Header*/}
+              <div className="border-b border-gega-red p-4 flex items-center justify-between">
+                <h3>accusantium doloremque laudant...</h3>
+                <img src="./public/images/userava1.jpg" alt="picture" className="rounded-full" />
+              </div>
+              {/*Item 5 Para*/}
+              <p className="p-4 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis consequuntur temporibus maxime repellendus earum veniam saepe quia. Quos, sit?</p>
+              {/*Item 5 Footer */}
+              <div className="flex justify-end border-t border-gega-red p-4 items-center space-x-4 font-bold font-gemunu text-xs">
+                <p className="uppercase">on dec 17, 2022</p>
+                <div className="flex items-center justify-center space-x-1">
+                  <FaRegComments />
+                  <p>12</p>
+                  <CiHeart />
+                  <p>09</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
 
       </section>
-      
+
     </main>
   );
 }
