@@ -30,7 +30,7 @@ function NavMenu({children}) {
     
 
   return (
-    <NavContext.Provider value={{menu,menutoggle}}>
+    <NavContext.Provider value={{menu,setMenu,menutoggle}}>
         {children}
     </NavContext.Provider>
   )

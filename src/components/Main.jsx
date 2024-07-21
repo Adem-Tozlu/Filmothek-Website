@@ -1,16 +1,15 @@
-import React from "react";
+import React,{useContext} from "react";
 import { FaPlay } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { FaRegComments } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
-import { useState } from "react";
-
+import { NavContext } from "../context/NavMenu";
 
 function Main() {
-  
-
+  const { setMenu } = useContext(NavContext);
+ 
   return (
-    <main >
+    <main onClick={()=>{setMenu(false)}} >
       {/* Hero Section */}
       <section className="h-96 lg:h-128 group relative">
         {/* Hero Image */}

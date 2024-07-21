@@ -1,10 +1,10 @@
-import React from 'react'
-
+import React,{useContext} from 'react'
+import { NavContext } from "../context/NavMenu";
 
 function Footer() {
- 
+    const { setMenu } = useContext(NavContext);
     return (
-        <footer className='dark:bg-black bg-white dark:text-gega-grey'>
+        <footer className='dark:bg-black bg-white dark:text-gega-grey' onClick={()=>setMenu(false)}>
             {/* Footer Container */}
             <div className="container flex flex-col md:flex-row px-10 lg:px0 pb-8">
                 {/* Left */}

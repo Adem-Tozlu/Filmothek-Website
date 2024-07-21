@@ -1,7 +1,7 @@
 import { IoIosSearch } from "react-icons/io";
 import { FaRegSun } from "react-icons/fa";
 import { IoMdMoon } from "react-icons/io";
-import React, { useContext,useState,useEffect } from "react";
+import React, { useContext} from "react";
 
 import { NavContext } from "../context/NavMenu";
 import { DarkModeContext } from "../context/Darkmode";
@@ -44,8 +44,8 @@ function Header() {
 
           </form>
         {/* Mobile Menu*/}
-        <div className="relative pr-4 block md:hidden" onClick={menutoggle}>
-          <div className="space-y-1 cursor-pointer">
+        <div className="relative z-10 pr-4 block md:hidden " onClick={menutoggle}>
+          <div className="space-y-1 cursor-pointer ">
             <div className="dark:bg-gega-grey bg-black w-8 h-1 rounded-full"></div>
             <div className="dark:bg-gega-grey bg-black w-8 h-1 rounded-full"></div>
             <div className="dark:bg-gega-grey bg-black w-8 h-1 rounded-full"></div>
@@ -55,7 +55,7 @@ function Header() {
           </div>
 
           {menu && (
-     <nav className="dark:bg-black/[.54] bg-white/[.54] absolute text-lg grid right-0 top-11 gap-2 z-10 mt-2 pl-2 w-auto">
+     <nav className=" dark:bg-black/[.54] bg-white/[.54] absolute text-lg grid right-0 top-11 gap-2 z-10 mt-2 pl-2 pr-10 w-auto">
      {/* Menu */}
     
      <div className=" grid w-full gap-2 z-10 ">
@@ -100,7 +100,7 @@ function Header() {
        <div className=""></div>
 
 <a href="#">Login</a>
-<a href="#" className="-ml-2 pl-2 bg-gega-red hover:bg-rose-600 hover:text-gega-grey cursor-pointer transition duration-500 whitespace-nowrap">Sign Up</a>
+<a href="#" className="-ml-2 pl-2  bg-gega-red hover:bg-rose-600 hover:text-gega-grey cursor-pointer transition duration-500 whitespace-nowrap">Sign Up</a>
 
 
      </div>
