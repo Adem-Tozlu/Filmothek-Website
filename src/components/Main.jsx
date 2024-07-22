@@ -365,7 +365,7 @@ function Main() {
                 {/* New Image Container */}
                 <div className="basis-1/3 h-full">
                   <img
-                    src="./public/images/new1.jpg"
+                    src="/images/new1.jpg"
                     alt="image"
                     className="h-full w-full object-cover"
                   />
