@@ -2,7 +2,7 @@ import { IoIosSearch } from "react-icons/io";
 import { FaRegSun } from "react-icons/fa";
 import { IoMdMoon } from "react-icons/io";
 import React, { useContext} from "react";
-
+import { Link } from "react-scroll";
 import { NavContext } from "../context/NavMenu";
 import { DarkModeContext } from "../context/Darkmode";
 
@@ -10,7 +10,7 @@ import { DarkModeContext } from "../context/Darkmode";
 function Header() {
   
   const { isDarkMode, toggleDarkMode } = useContext(DarkModeContext);
-  const { menu, menutoggle } = useContext(NavContext);
+  const { menu,setMenu, menutoggle } = useContext(NavContext);
  
 
 
@@ -21,7 +21,7 @@ function Header() {
   return (
 
 
-    <header className="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase ">
+    <header className="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase " id="homepage">
       <div className="absolute top-1 right-5  cursor-pointer text-lg">
 
         {isDarkMode ? (<IoMdMoon onClick={toggleDarkMode} className= "text-white w-6 md:w-5 lg:w-7 h-auto"  />):(<FaRegSun onClick={toggleDarkMode} className="text-black w-6 md:w-5 lg:w-7 h-auto" />)}
@@ -55,42 +55,47 @@ function Header() {
           </div>
 
           {menu && (
-     <nav className=" dark:bg-black/[.54] bg-white/[.54] absolute text-lg grid right-0 top-11 gap-2 z-10 mt-2 pl-2 pr-10 w-auto">
+     <nav className=" dark:bg-black/[.54] bg-white/[.54] absolute text-lg grid right-0 top-11 gap-2 z-10 mt-2 pl-2 pr-10 w-auto ">
      {/* Menu */}
     
      <div className=" grid w-full gap-2 z-10 ">
-       <a
-         href="#"
-         className="hover:text-gega-melon transition duration-500"
-       >
-         movies
-       </a>
-       <a
-         href="#"
-         className="hover:text-gega-melon transition duration-500"
-       >
-         celebrites
-       </a>
+     <Link onClick={() => setMenu(false)}
+  to="movies"    smooth={true}
+  className="hover:text-gega-melon transition duration-500 cursor-pointer"
+>
+  movies
+</Link>
+<Link onClick={() => setMenu(false)}
+  to="celebrities"
+  smooth={true}
+  className="hover:text-gega-melon transition duration-500 cursor-pointer"
+>
+  celebrities
+</Link>
 
-       <a
-         href="#"
-         className="hover:text-gega-melon transition duration-500"
-       >
-         blog
-       </a>
+<Link onClick={() => setMenu(false)}
+  to="blog"
+  smooth={true}
+  className="hover:text-gega-melon transition duration-500 cursor-pointer"
+>
+  blog
+</Link>
 
-       <a
-         href="#"
-         className="hover:text-gega-melon transition duration-500"
-       >
-         news
-       </a>
-       <a
-         href="#"
-         className="hover:text-gega-melon transition duration-500"
-       >
-         about
-       </a>
+<Link onClick={() => setMenu(false)}
+  to="news"
+  smooth={true}
+  className="hover:text-gega-melon transition duration-500 cursor-pointer"
+>
+  news
+</Link>
+
+<Link onClick={() => setMenu(false)}
+  to="about"
+  smooth={true}
+  className="hover:text-gega-melon transition duration-500 cursor-pointer"
+>
+  about
+</Link>
      </div>
      {/* Login Area */}
      <div className="grid z-10">
@@ -116,38 +121,43 @@ function Header() {
         <nav className="hidden md:flex justify-between flex-1">
           {/* Menu */}
           <div className="flex items-center lg:text-lg space-x-4 lg:space-x-8">
-            <a
-              href="#"
-              className="hover:text-gega-melon transition duration-500"
-            >
-              movies
-            </a>
-            <a
-              href="#"
-              className="hover:text-gega-melon transition duration-500"
-            >
-              celebrites
-            </a>
+          <Link
+  to="movies"    smooth={true}
+  className="hover:text-gega-melon transition duration-500 cursor-pointer"
+>
+  movies
+</Link>
+<Link
+  to="celebrities"
+  smooth={true}
+  className="hover:text-gega-melon transition duration-500 cursor-pointer"
+>
+  celebrities
+</Link>
 
-            <a
-              href="#"
-              className="hover:text-gega-melon transition duration-500"
-            >
-              blog
-            </a>
+<Link
+  to="blog"
+  smooth={true}
+  className="hover:text-gega-melon transition duration-500 cursor-pointer"
+>
+  blog
+</Link>
 
-            <a
-              href="#"
-              className="hover:text-gega-melon transition duration-500"
-            >
-              news
-            </a>
-            <a
-              href="#"
-              className="hover:text-gega-melon transition duration-500"
-            >
-              about
-            </a>
+<Link
+  to="news"
+  smooth={true}
+  className="hover:text-gega-melon transition duration-500 cursor-pointer"
+>
+  news
+</Link>
+
+<Link
+  to="about"
+  smooth={true}
+  className="hover:text-gega-melon transition duration-500 cursor-pointer"
+>
+  about
+</Link>
           </div>
           {/* Login Area */}
           <div className="flex items-center space-x-4 lg:space-x-8">
