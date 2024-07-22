@@ -63,7 +63,7 @@ function Main() {
         {/* Hero Image */}
 
         <img
-          src="./public/images/batman.jpg"
+          src="/images/batman.jpg"
           alt="batman image"
           className="h-full w-full object-cover"
         />
@@ -171,7 +171,7 @@ function Main() {
               {/* Image 1*/}
               <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
-                  src="./public/images/mv1.jpg"
+                  src="/images/mv1.jpg"
                   alt="image1"
                   className="group-hover:scale-110 group-hover:opacity-50 duration-500 "
                 />
@@ -194,7 +194,7 @@ function Main() {
               {/* Image 2*/}
               <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
-                  src="./public/images/mv6.jpg"
+                  src="/images/mv6.jpg"
                   alt="image1"
                   className="group-hover:scale-110 group-hover:opacity-50 duration-500"
                 />
@@ -217,7 +217,7 @@ function Main() {
               {/* Image 3*/}
               <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
-                  src="./public/images/mv2.jpg"
+                  src="/images/mv2.jpg"
                   alt="image1"
                   className="group-hover:scale-110 group-hover:opacity-50 duration-500"
                 />
@@ -240,7 +240,7 @@ function Main() {
               {/* Image 4*/}
               <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
-                  src="./public/images/mv3.jpg"
+                  src="/images/mv3.jpg"
                   alt="image1"
                   className="group-hover:scale-110 group-hover:opacity-50 duration-500"
                 />
@@ -263,7 +263,7 @@ function Main() {
               {/* Image 5*/}
               <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
-                  src="./public/images/mv4.jpg"
+                  src="/images/mv4.jpg"
                   alt="image1"
                   className="group-hover:scale-110 group-hover:opacity-50 duration-500"
                 />
@@ -286,7 +286,7 @@ function Main() {
               {/* Image 6*/}
               <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3">
                 <img
-                  src="./public/images/mv5.jpg"
+                  src="/images/mv5.jpg"
                   alt="image1"
                   className="group-hover:scale-110 group-hover:opacity-50 duration-500"
                 />
@@ -309,7 +309,7 @@ function Main() {
               {/* Image 7*/}
               <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
                 <img
-                  src="./public/images/mv4.jpg"
+                  src="/images/mv4.jpg"
                   alt="image1"
                   className="group-hover:scale-110 group-hover:opacity-50 duration-500"
                 />
@@ -332,7 +332,7 @@ function Main() {
               {/* Image 8*/}
               <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
                 <img
-                  src="./public/images/mv4.jpg"
+                  src="/images/mv4.jpg"
                   alt="image1"
                   className="group-hover:scale-110 group-hover:opacity-50 duration-500"
                 />
@@ -386,7 +386,7 @@ function Main() {
                 {/* New Image Container */}
                 <div className="basis-1/3 h-full">
                   <img
-                    src="./public/images/new2.jpg"
+                    src="/images/new2.jpg"
                     alt="image"
                     className="h-full w-full object-cover"
                   />
@@ -407,7 +407,7 @@ function Main() {
                 {/* New Image Container */}
                 <div className="basis-1/3 h-full">
                   <img
-                    src="./public/images/new3.jpg"
+                    src="/images/new3.jpg"
                     alt="image"
                     className="h-full w-full object-cover"
                   />
@@ -428,7 +428,7 @@ function Main() {
                 {/* New Image Container */}
                 <div className="basis-1/3 h-full">
                   <img
-                    src="./public/images/new4.jpg"
+                    src="/images/new4.jpg"
                     alt="image"
                     className="h-full w-full object-cover"
                   />
@@ -449,7 +449,7 @@ function Main() {
                 {/* New Image Container */}
                 <div className="basis-1/3 h-full">
                   <img
-                    src="./public/images/new5.jpg"
+                    src="/images/new5.jpg"
                     alt="image"
                     className="h-full w-full object-cover"
                   />
@@ -476,7 +476,7 @@ function Main() {
           {/* Left Content */}
           <div className="hidden md:block md:basis-1/3 lg:basis-1/2">
             <img
-              src="./public/images/matrix.png"
+              src="/images/matrix.png"
               alt="matrix image"
               className="lg:absolute lg:bottom-0"
             />
@@ -528,7 +528,7 @@ function Main() {
                   accusantium doloremque laudant...
                 </h3>
                 <img
-                  src="./public/images/userava1.jpg"
+                  src="/images/userava1.jpg"
                   alt="picture"
                   className="rounded-full"
                 />
@@ -559,7 +559,7 @@ function Main() {
                   accusantium doloremque laudant...
                 </h3>
                 <img
-                  src="./public/images/userava1.jpg"
+                  src="/images/userava1.jpg"
                   alt="picture"
                   className="rounded-full"
                 />
@@ -589,7 +589,7 @@ function Main() {
                   accusantium doloremque laudant...
                 </h3>
                 <img
-                  src="./public/images/userava1.jpg"
+                  src="/images/userava1.jpg"
                   alt="picture"
                   className="rounded-full"
                 />
@@ -619,7 +619,7 @@ function Main() {
                   accusantium doloremque laudant...
                 </h3>
                 <img
-                  src="./public/images/userava1.jpg"
+                  src="/images/userava1.jpg"
                   alt="picture"
                   className="rounded-full"
                 />
@@ -649,7 +649,7 @@ function Main() {
                   accusantium doloremque laudant...
                 </h3>
                 <img
-                  src="./public/images/userava1.jpg"
+                  src="/images/userava1.jpg"
                   alt="picture"
                   className="rounded-full"
                 />
