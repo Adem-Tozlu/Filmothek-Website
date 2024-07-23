@@ -63,7 +63,7 @@ function Main() {
         {/* Hero Image */}
 
         <img
-          src="/images/batman.jpg"
+          src="/images/batman.webp"
           alt="batman image"
           className="h-full w-full object-cover"
         />
@@ -90,7 +90,7 @@ function Main() {
               <div className="flex space-x-2 items-center cursor-pointer ">
                 {showVideo && (
                   <iframe
-                    className="fixed w-full h-1/2 left-0 z-50"
+                    className="absolute w-full left-0 z-50"
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/8vvYFwO0VQQ?autoplay=1"
@@ -112,7 +112,7 @@ function Main() {
               </div>
               {/*Info*/}
               <div className="flex space-x-2 items-center cursor-pointer ">
-              {showTrilogy && ( <iframe className="fixed w-full h-1/2 left-0 z-50"
+              {showTrilogy && ( <iframe className="absolute w-full left-0 z-50"
                   width="560"
                   height="315"
                   src="https://www.youtube.com/embed/TsLEolNcXug?si=a92-iGfVnGOtUofw"
@@ -134,6 +134,7 @@ function Main() {
               </div>
             </div>
           </div>
+
         </div>
 
         {/*Points*/}
@@ -143,6 +144,8 @@ function Main() {
           <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gega-grey"></div>
           <div className="w-3 h-3 lg:w-4 lg:h-4 rounded-full bg-gega-grey"></div>
         </div>
+
+
       </section>
       {/* Movies Section */}
       <section className="py-24 dark:bg-black bg-white">
@@ -201,7 +204,7 @@ function Main() {
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
                   <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
-                    Oblivion
+                    Skyfall
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -224,7 +227,7 @@ function Main() {
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
                   <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
-                    Oblivion
+                    Into the Wild
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -247,7 +250,7 @@ function Main() {
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
                   <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
-                    Oblivion
+                    Mulholland
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -270,7 +273,7 @@ function Main() {
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
                   <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
-                    Oblivion
+                    2049
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -293,7 +296,7 @@ function Main() {
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
                   <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
-                    Oblivion
+                    The Forest
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
