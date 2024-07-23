@@ -180,7 +180,7 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className=" absolute  px-6 bottom-8 ">
-                  <h3 className="text-gega-grey   group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey  text-xs sm:text-base group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Oblivion
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
@@ -189,8 +189,8 @@ function Main() {
                   </p>
                   {/* Icon Container*/}
                   <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
-                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
+                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
+                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
                   </div>
                 </div>
               </div>
@@ -203,7 +203,7 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey text-xs sm:text-base  group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Skyfall
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
@@ -212,8 +212,8 @@ function Main() {
                   </p>
                   {/* Icon Container*/}
                   <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
-                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
+                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
+                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
                   </div>
                 </div>
               </div>
@@ -226,7 +226,7 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey text-xs sm:text-base group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Into the Wild
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
@@ -235,8 +235,8 @@ function Main() {
                   </p>
                   {/* Icon Container*/}
                   <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
-                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
+                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
+                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
                   </div>
                 </div>
               </div>
@@ -249,7 +249,7 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey text-xs sm:text-base group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     Mulholland
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
@@ -258,8 +258,8 @@ function Main() {
                   </p>
                   {/* Icon Container*/}
                   <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
-                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
+                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
+                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
                   </div>
                 </div>
               </div>
@@ -272,7 +272,7 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey text-xs sm:text-base group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     2049
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
@@ -281,8 +281,8 @@ function Main() {
                   </p>
                   {/* Icon Container*/}
                   <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
-                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
+                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
+                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
                   </div>
                 </div>
               </div>
@@ -295,7 +295,7 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
+                  <h3 className="text-gega-grey text-xs sm:text-base group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
                     The Forest
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
@@ -304,8 +304,8 @@ function Main() {
                   </p>
                   {/* Icon Container*/}
                   <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
-                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
+                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
+                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
                   </div>
                 </div>
               </div>
@@ -318,8 +318,8 @@ function Main() {
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
-                    Oblivion
+                  <h3 className="text-gega-grey text-xs sm:text-base group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
+                    2049
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -327,22 +327,22 @@ function Main() {
                   </p>
                   {/* Icon Container*/}
                   <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
-                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
+                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
+                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
                   </div>
                 </div>
               </div>
               {/* Image 8*/}
               <div className="group relative overflow-hidden basis-1/3 md:basis-1/4 lg:basis-1/3 hidden md:block lg:hidden">
                 <img
-                  src="/images/mv4.jpg"
+                  src="/images/fences.webp"
                   alt="image1"
-                  className="group-hover:scale-110 group-hover:opacity-50 duration-500"
+                  className="group-hover:scale-110 group-hover:opacity-50 duration-500 h-full"
                 />
                 {/* Image Detail Container*/}
                 <div className="absolute px-6 bottom-8">
-                  <h3 className="text-gega-grey group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
-                    Oblivion
+                  <h3 className="text-gega-grey text-xs sm:text-base group-hover:text-gega-melon group-hover:mb-14 sm:group-hover:mb-2 duration-500">
+                    fences
                   </h3>
                   <p className="opacity-0 hidden text-xs sm:block group-hover:opacity-100 group-hover:mb-10 duration-500 text-gega-grey">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -350,8 +350,8 @@ function Main() {
                   </p>
                   {/* Icon Container*/}
                   <div className="absolute flex space-x-6 sm:space-x-8 text-gega-grey opacity-0 -bottom-2 group-hover:bottom-2 group-hover:opacity-100 duration-500">
-                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500" />
-                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500" />
+                    <FaPlay className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
+                    <FaArrowRight className="cursor-pointer hover:text-gega-red duration-500 w-2 sm:w-auto" />
                   </div>
                 </div>
               </div>

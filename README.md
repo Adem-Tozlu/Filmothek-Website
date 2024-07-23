@@ -28,36 +28,35 @@ This project is a movie library that allows you to watch movie trailers. It was 
 
 ### Links
 
-- Solution URL: [Github Solutions](https://github.com/Adem-Tozlu/Project-Shop)
-- Live Site URL: [Website Shop](https://project-shop-xi.vercel.app/)
+- Solution URL: [Github Solutions](https://github.com/Adem-Tozlu/Filmothek-Website)
+- Live Site URL: [Website Filmothek](https://filmothek-website.vercel.app/)
 
 ## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- SASS/SCSS
+- Tailwind
 - Mobile-design
-- Grid
+- Flex/Grid
 - Javascript
 
 ## Frameworks
  - React
+ - Tailwind
 
 ## Hooks
  - useState
  - useEffect
  - useContext
- - useNavigate
+ 
 
 ## Tools
  - Vite
 
 ### What I learned
 
-
-By developing this shop, I have not only significantly expanded my React knowledge and skills, but also gained valuable practical experience in implementing complex web applications.
-These experiences will be beneficial to me in my further career as a developer.
+Developing this project allowed me to put my React skills and knowledge into practice while also gaining experience with Tailwind CSS. These experiences will undoubtedly be beneficial to me in my further career as a developer.
 ## Author
 
 - Website - [Github](https://github.com/Adem-Tozlu)
